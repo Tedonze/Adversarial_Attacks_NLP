@@ -1,9 +1,10 @@
 "# Adversarial ATTACK DETECTION " 
 
-In this jupyter notebook we have built three method of out of output detection
--Max-softmax
--Doctor discriminator, 
--Mahanobis distance 
+In this jupyter notebook we have built three methods of out of distribution detection:
+
+- Max-softmax
+- Doctor discriminator, 
+- Mahanobis distance 
 
 As metrics we have used:
 - AUROC
@@ -16,9 +17,8 @@ Then we use a text attack generator according to this repository https://github.
 
 (we have put some generated attacks file in the attack foler)
 
-- Then we compute each metrics to evaluate Odd detection
+Then we compute each metrics to evaluate ODD detection
 
-NB: we did not have enough computing resources to properly train our model.
 
 To test different scenario we provide at the top of our notebook a config file as global variable
 ###### Global Variable 
