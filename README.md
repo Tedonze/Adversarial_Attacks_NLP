@@ -19,7 +19,7 @@ Then we use a text attack generator according to this repository https://github.
 
 Then we compute each metrics to evaluate ODD detection
 
-
+NB: We didn't have a lot ressource to properly train our model 
 To test different scenario we provide at the top of our notebook a config file as global variable
 ###### Global Variable 
 PRE_TRAINED_MODEL_NAME = 'bert-base-cased' #'robbert-base-cased'
